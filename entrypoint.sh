@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ## Do whatever you need with env vars here ...
-if [ "$CI_JOB_STAGE" == "deploy" ]
+if [ "$CI_JOB_STAGE" == "test" ]
 then
   echo "Deploy stage"
 fi
